@@ -1,0 +1,7 @@
+create or replace procedure borrar_countries (paisID varchar) is
+
+begin
+
+delete from countries where COUNTRY_ID=paisID;
+
+end borrar_countries;
